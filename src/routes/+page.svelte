@@ -18,7 +18,7 @@
 
 <section>
 	<button on:click={increment}>
-		Count is: {count}
+		Increment
 	</button>
 	<p>Count doubled is: {doubled}</p>
 

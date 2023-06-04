@@ -2,6 +2,8 @@
     <a href="/">Counter Reactivity</a>
     <a href="/hashmap">Hash Map Iterations</a>
     <a href="/nestedhashmap">Nested Hash Maps</a>
+    <a href="/iflogic">Logic / if Statements</a>
+    <a href="/arrayofmaps">Array of Maps</a>
 </nav>
 
 <style>
