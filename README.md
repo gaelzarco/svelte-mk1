@@ -1,4 +1,8 @@
-# create-svelte
+# Learning About Svelte
+
+This project is intended to be used for practicing Svelte/SvelteKit and to become comfortable with frameworks outside of Next.js/React.
+
+# Dev Resources
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
