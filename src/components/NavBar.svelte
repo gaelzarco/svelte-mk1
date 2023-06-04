@@ -1,6 +1,7 @@
 <nav>
     <a href="/">Counter Reactivity</a>
-    <a href="/home">Hash Map Iterations</a>
+    <a href="/hashmap">Hash Map Iterations</a>
+    <a href="/nestedhashmap">Nested Hash Maps</a>
 </nav>
 
 <style>
