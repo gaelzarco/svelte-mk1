@@ -1,6 +1,7 @@
 <script lang="ts">
+	import CounterComponent from "../components/CounterComponent.svelte";
 	let countArr: Array<number> = [];
-	let count = 0;
+	let count: number = 0;
 
 	function increment() {
 		count += 1;
@@ -29,9 +30,18 @@
 			</p>
 		{/each}
 	</div>
+
+	<CounterComponent currentVal={count} />
 </section>
 
 <style>
+	section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.flex-nums {
 		display: flex;
 		flex-direction: row;

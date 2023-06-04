@@ -1,8 +1,10 @@
 <script>
 	import './styles.css';
+	import NavBar from '../components/NavBar.svelte'
 </script>
 
 <main class="app">
+	<NavBar />
 	<slot />
 </main>
 
@@ -10,11 +12,8 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
-		min-width: 100vw;
+		min-height: 100%;
+		min-width: 100%;
 		align-items: center;
-		justify-content: center;
-		justify-items: center;
-		text-align: center;
 	}
 </style>
