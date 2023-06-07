@@ -3,20 +3,21 @@
         name: string,
         age: number
     }
-    let jeff: User = {
-        name: 'john',
-        age: 12
-    }
-    let jane: User = {
-        name: 'jane',
-        age: 18
-    }
-    let god: User = {
-        name: 'god',
-        age: 40000
-    }
 
-    const array: User[] = [jeff, jane, god]
+    const array: Array<User> = [
+        {
+            name: 'jeff',
+            age: 24
+        },
+        {
+            name: 'jane',
+            age: 22
+        },
+        {
+            name: 'john',
+            age: 68
+        }
+    ]
 </script>
 
 <section>
