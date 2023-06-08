@@ -5,6 +5,7 @@
     <a href="/iflogic">Logic / if Statements</a>
     <a href="/arrayofmaps">Array of Maps</a>
     <a href="/datafetch">Data Fetching</a>
+    <a href="/domevents">Dom Events</a>
 </nav>
 
 <style>
