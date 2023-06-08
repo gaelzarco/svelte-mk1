@@ -4,7 +4,7 @@
         age: number
     }
 
-    const array: Array<User> = [
+    let userArr: Array<User> = [
         {
             name: 'jeff',
             age: 24
@@ -18,12 +18,20 @@
             age: 68
         }
     ]
+
+    function pop() {
+        userArr = userArr.slice(1)
+    }
 </script>
 
 <section>
-    <h1>Under construction</h1>
+    <h1>Manipulating and iterating over an array of objs</h1>
 
-    {#each array as user, idx}
+    {#each userArr as user, idx}
         <p>{user.name} is at index {idx}</p>
     {/each}
+
+    <button on:click={pop}>
+       Delete lowest user index
+    </button>
 </section>
